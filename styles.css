@@ -1,0 +1,289 @@
+
+		*{
+			box-sizing: border-box;
+		}
+
+		div#container{
+			background-color: white;
+			position: relative;
+			top: 60px;
+		}
+
+		h1
+		{	
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+
+		mark
+		{
+			background-color: #E6B8D1;
+			border: 1px solid black;
+			text-align: right;
+			
+		}
+
+		p
+		{
+			border: 1px solid black;
+			background-color: #CCCCCC;
+			position: relative;
+			margin-left: auto;
+			margin-top: auto;
+			width: 90%;
+			height: 320px;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			color:black;
+			font-size:15px;
+			text-align: center;
+
+		}
+
+		.m1
+		{
+			background-color: #FEFFB7;
+			
+  			border: 1px solid black;
+  			
+  			text-align: right;
+
+		}
+
+		.m2
+		{
+			background-color: #4BF9CA;
+			
+  			border: 1px solid black;
+  			
+  			text-align: right;
+		}
+
+		.m3
+		{
+			background-color: #FF77F7;
+  			
+  			border: 1px solid black;
+  			
+  			text-align: center;
+		}
+
+		.m4
+		{
+			background-color: #77AEFF;
+			
+  			border: 1px solid black;
+  			
+  			text-align: center;
+		}
+
+		.m5
+		{
+			background-color: #FF6546;
+			
+  			border: 1px solid black;
+  			
+  			text-align: center;
+		}
+
+		.m6
+		{
+			background-color: #AF46FF;
+			
+  			border: 1px solid black;
+  			
+  			text-align: center;
+			
+		}
+
+		.m7
+		{
+			background-color: #977474;
+			
+  			border: 1px solid black;
+  			
+  			text-align: center;
+		}
+
+		.m8
+		{
+			background-color: #699875;
+			
+  			border: 1px solid black;
+  			
+  			text-align: center;
+		}
+
+		.m9
+		{
+			background-color: #1D7A12;
+			
+  			border: 1px solid black;
+  			
+  			text-align: center;
+		}
+
+		.m10
+		{
+			background-color: #E6B8D1;
+			
+  			border: 1px solid black;
+  			
+  			text-align: center;
+		}
+
+
+
+		.row{
+			width: 100%;
+		}
+
+		.style_Heading{
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			color:black;
+			font-weight:bold;
+			font-size:50px;
+			text-align: center;
+		}
+
+		.style_Paragraph{
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			color:black;
+			font-size:16px;
+
+		}
+
+		
+
+		/* Desktop Version*/
+		@media(min-width: 992px)
+		{
+			.col-des-1,.col-des-2,.col-des-3,.col-des-4,.col-des-5,.col-des-6,.col-des-7,.col-des-8,.col-des-9,.col-des-10,.col-des-11,.col-des-12{
+				float: left;
+			}
+			
+
+			.col-des-1{
+				width: 8.33%
+			}
+			.col-des-2{
+				width: 16.66%
+			}
+			.col-des-3{
+				width: 25%
+			}
+			.col-des-4{
+				width: 33.33%
+			}
+			.col-des-5{
+				width: 41.66%
+			}
+			.col-des-6{
+				width: 50%
+			}
+			.col-des-7{
+				width: 58.33%
+			}
+			.col-des-8{
+				width: 66.66%
+			}
+			.col-des-9{
+				width: 74.99%
+			}
+			.col-des-10{
+				width: 88.33%
+			}
+			.col-des-11{
+				width: 91.66%
+			}
+			.col-des-12{
+				width: 100%
+			}
+		}
+		/* Tablet Version*/
+		@media(min-width: 768px) and (max-width: 991px)
+		{
+			.col-tab-1,.col-tab-2,.col-tab-3,.col-tab-4,.col-tab-5,.col-tab-6,.col-tab-7,.col-tab-8,.col-tab-9,.col-tab-10,.col-tab-11,.col-tab-12{
+				float: left;
+			}
+
+			.col-tab-1{
+				width: 8.33%
+			}
+			.col-tab-2{
+				width: 16.66%
+			}
+			.col-tab-3{
+				width: 25%
+			}
+			.col-tab-4{
+				width: 33.33%
+			}
+			.col-tab-5{
+				width: 41.66%
+			}
+			.col-tab-6{
+				width: 50%
+			}
+			.col-tab-7{
+				width: 58.33%
+			}
+			.col-tab-8{
+				width: 66.66%
+			}
+			.col-tab-9{
+				width: 74.99%
+			}
+			.col-tab-10{
+				width: 88.33%
+			}
+			.col-tab-11{
+				width: 91.66%
+			}
+			.col-tab-12{
+				width: 100%
+			}
+		}
+		/* Mobile Version*/
+		@media(min-width: 767px)
+		{
+			.col-mob-1,.col-mob-2,.col-mob-3,.col-mob-4,.col-mob-5,.col-mob-6,.col-mob-7,.col-mob-8,.col-mob-9,.col-mob-10,.col-mob-11,.col-mob-12{
+				float: left;
+			}
+
+			.col-mob-1{
+				width: 8.33%
+			}
+			.col-mob-2{
+				width: 16.66%
+			}
+			.col-mob-3{
+				width: 25%
+			}
+			.col-mob-4{
+				width: 33.33%
+			}
+			.col-mob-5{
+				width: 41.66%
+			}
+			.col-mob-6{
+				width: 50%
+			}
+			.col-mob-7{
+				width: 58.33%
+			}
+			.col-mob-8{
+				width: 66.66%
+			}
+			.col-mob-9{
+				width: 74.99%
+			}
+			.col-mob-10{
+				width: 88.33%
+			}
+			.col-mob-11{
+				width: 91.66%
+			}
+			.col-mob-12{
+				width: 100%
+			}
+		}
